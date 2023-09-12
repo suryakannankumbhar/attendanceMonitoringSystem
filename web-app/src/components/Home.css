@@ -1,0 +1,49 @@
+* {
+    background-color: white;
+    color: black;
+}
+.home {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    height: 100vh;
+}
+.navigationBar {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.navigationBar h1,
+h2 {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.navigationBar button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.loadingScreen {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loadingScreen h2 {
+    background-color: black;
+    color: white;
+}
